@@ -1,0 +1,21 @@
+Titre,Couleur,Icon1,Icon2,Icon3,Icon4,Icon5,Icon6,CM,Nb
+Contexte 1,Jaune,A,,,,,,2,2
+Contexte 2,Jaune,b,,,,,,2,2
+Contexte 3,Orange,C,a,,,,,3,2
+Contexte 4,Bleu,D,b,,,,,3,2
+Contexte 5,Violet,E,c,,,,,3,2
+Contexte 6,Jaune,F,d,A,,,,3,2
+Contexte 7,Bleu,g,E,b,,,,3,2
+Contexte 8,Rouge,A,f,C,d,,,4,2
+Contexte 9,Rouge,B,g,D,,,,3,2
+Contexte 10,Jaune,c,,,,,,2,2
+Contexte 11,Orange,D,,,,,,2,2
+Contexte 12,Orange,e,,,,,,2,2
+Contexte 13,Jaune,F,a,,,,,3,2
+Contexte 14,Bleu,G,b,A,,,,3,2
+Contexte 15,Bleu,a,C,E,,,,3,2
+Contexte 16,Vert,B,d,F,e,,,4,2
+Contexte 17,Rouge,C,E,g,,,,3,2
+Contexte 18,Violet,D,f,,,,,3,2
+Contexte 19,Rouge,E,g,,,,,3,2
+Contexte 20,Jaune,F,,,,,,2,2

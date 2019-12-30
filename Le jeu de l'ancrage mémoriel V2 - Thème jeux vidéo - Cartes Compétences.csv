@@ -1,0 +1,7 @@
+﻿Titre,Couleur,Icon1,Niv1_Label,Niv1_PV,Niv1_CM,Niv1_ReqLinkType1,Niv1_ReqLinkType2,Niv1_ReqLinkType3,Niv1_ReqLinkType4,Niv2_Label,Niv2_PV,Niv2_CM,Niv2_ReqExpNb,Niv3_Label,Niv3_PV,Niv3_CM,Niv3_ReqExpNb,Niv3_ReqExpDiffNb,Niv4_Label,Niv4_PV,Niv4_CM,Nb
+Programmer Moteur Physique (MP),Rouge,MP,Connu,0,1,m,p,a,c,Compris,4,4,3,Appliquable,8,3,4,3,Maîtrisé,16,2,2
+Programmer IA (IA),Orange,IA,Connu,0,1,m,p,l,a,Compris,4,4,3,Appliquable,8,3,4,3,Maîtrisé,16,2,2
+Programmer Gameplay (GP),Jaune,GP,Connu,0,1,l,a,c,g,Compris,4,4,3,Appliquable,8,3,4,3,Maîtrisé,16,2,2
+Programmer Éditeur de niveaux (EN),Vert,EN,Connu,0,1,m,c,g,,Compris,3,3,2,Appliquable,6,2,3,2,Maîtrisé,9,1,2
+Concevoir Niveaux (LD),Bleu,LD,Connu,0,1,p,l,g,,Compris,3,3,2,Appliquable,6,2,3,2,Maîtrisé,9,1,2
+Définir la progression (GD),Violet,GD,Connu,0,1,m,l,a,g,Compris,4,4,3,Appliquable,8,3,4,3,Maîtrisé,16,2,2

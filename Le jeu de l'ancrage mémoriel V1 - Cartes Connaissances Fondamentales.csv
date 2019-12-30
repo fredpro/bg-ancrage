@@ -1,0 +1,9 @@
+﻿Titre,Icon,Niv1_Label,Niv1_PV,Niv1_CM,Niv1_ReqLinkType,Niv2_Label,Niv2_PV,Niv2_CM,Niv2_ReqExpNb,Niv3_Label,Niv3_PV,Niv3_CM,Niv3_ReqExpNb,Niv4_Label,Niv4_PV,Niv4_CM,Nb
+Langage,µ,,,,,,,,,Appliquable,0,4,10,Maîtrisé,0,1,4
+Conn Fond 'a',a,Connu,1,2,µ,Compris,1,3,1,Appliquable,1,2,4,Maîtrisé,2,1,4
+Conn Fond 'b',b,Connu,1,2,µ,Compris,1,3,1,Appliquable,1,2,4,Maîtrisé,2,1,4
+Conn Fond 'c',c,Connu,1,2,µ,Compris,1,3,1,Appliquable,1,2,4,Maîtrisé,2,1,4
+Conn Fond 'd',d,Connu,1,2,µ,Compris,1,3,1,Appliquable,1,2,4,Maîtrisé,2,1,4
+Conn Fond 'e',e,Connu,1,2,µ,Compris,1,3,1,Appliquable,1,2,4,Maîtrisé,2,1,4
+Conn Fond 'f',f,Connu,1,2,µ,Compris,1,3,1,Appliquable,1,2,4,Maîtrisé,2,1,4
+Conn Fond 'g',g,Connu,1,2,µ,Compris,1,3,1,Appliquable,1,2,4,Maîtrisé,2,1,4

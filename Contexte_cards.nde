@@ -1,0 +1,58 @@
+PAGE=21,29.7,PORTRAIT,H
+LINKMULTI=Nb
+link=Le jeu de l'ancrage mémoriel V2 - Thème jeux vidéo - Cartes Activités.csv
+cardsize=5.9,9.2
+[all]="1-{(Titre)*2}"
+[all_recto]="1-{(Titre)}"
+[all_verso]="{(Titre)+1}-{(Titre)*2}"
+
+[pos_rect_color]=0.2,0.2,5.5,8.8
+
+[pos_cm]=0.3,0.3,0.7,0.7
+[pos_title]=1,0.3,3.9,0.8
+[pos_texte]=1,2, 3.9, 0.8
+
+[middle]="center","center"
+[white]=#FFFFFF
+[black]=#000000
+[bg_color]=#FFFFFF
+[Rouge]="#FF0000"
+[Orange]="#FF8800"
+[Jaune]="#FFFF00"
+[Vert]="#00FF00"
+[Bleu]="#0000FF"
+[Violet]="#8800FF"
+
+[FONT_TITRE]="arial",10, TB, [black]
+[FONT_LABEL]="arial",10,TI, [black]
+[FONT_CM_PV]="arial",8,TB, [black]
+[FONT_ICONS]="arial",10,TB, [black]
+
+IF=[Couleur]="Rouge"
+    RECTANGLE=[all_recto],0,0,5.9,9.2,[Rouge]
+ELSEIF=[Couleur]="Orange"
+    RECTANGLE=[all_recto],0,0,5.9,9.2,[Orange]
+ELSEIF=[Couleur]="Jaune"
+    RECTANGLE=[all_recto],0,0,5.9,9.2,[Jaune]
+ELSEIF=[Couleur]="Vert"
+    RECTANGLE=[all_recto],0,0,5.9,9.2,[Vert]
+ELSEIF=[Couleur]="Bleu"
+    RECTANGLE=[all_recto],0,0,5.9,9.2,[Bleu]
+ELSEIF=[Couleur]="Violet"
+    RECTANGLE=[all_recto],0,0,5.9,9.2,[Violet]
+ENDIF
+RECTANGLE=[all_recto],[pos_rect_color],[white]
+RECTANGLE=[all_recto],[pos_rect_color],[black],EMPTY,0.02
+
+FONT=[FONT_CM_PV]
+IMAGE=[all_recto],".\Icons\confusion.png",[pos_cm]
+TEXT=[all_recto],[CM],[pos_cm],center,wwcenter
+
+FONT=[FONT_TITRE]
+TEXT=[all_recto],[Titre],[pos_title],center,wwcenter
+
+FONT=[FONT_ICONS]
+TEXT=[all_recto],[Texte],[pos_texte],center,wwcenter
+
+;DUPLEX=[all_recto],[all_verso]
+;PRINT=DUPLEX

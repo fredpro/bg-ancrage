@@ -1,0 +1,146 @@
+PAGE=21,29.7,PORTRAIT,H
+LINKMULTI=Nb
+link=Le jeu de l'ancrage mémoriel V2 - Thème jeux vidéo - Cartes Compétences.csv
+cardsize=5.9,9.2
+[all]="1-{(Titre)*2}"
+[all_recto]="1-{(Titre)}"
+[all_verso]="{(Titre)+1}-{(Titre)*2}"
+
+[icons_width]=0.7
+[icons_height]=0.5
+
+[pos_rect_color]=0.2,0.2,5.5,8.8
+
+[pos_niv1_cm]=0.3,0.3,0.7,0.7
+[pos_niv1_pv]=4.8,0.2,0.75,0.75
+[pos_niv1_title]=1.1,0.3,3.7,1
+[pos_niv1_label]=1,1.3,3.9,0.5
+[pos_niv1_req_icons_x]=1.5
+[pos_niv1_req_icons_y]=2
+
+[pos_niv2_cm]=0.3,0.3,0.7,0.7
+[pos_niv2_pv]=4.8,0.2,0.75,0.75
+[pos_niv2_title]=1.1,0.3,3.7,1
+[pos_niv2_label]=1,1.3,3.9,0.5
+[pos_niv2_icons_x]=0.2
+[pos_niv2_icons_y]=1
+[pos_niv2_req_exp_x]=1.5
+[pos_niv2_req_exp_y]=2
+
+[pos_niv3_cm]=4.9,8.2,0.7,0.7
+[pos_niv3_pv]=0.3,8.2,0.75,0.75
+[pos_niv3_title]=1.1,7.9,3.7,1
+[pos_niv3_label]=1,7.2,3.9,0.5
+[pos_niv3_icons_x]=5
+[pos_niv3_icons_y]=7.7
+[pos_niv3_req_color_x]=5
+[pos_niv3_req_color_y]=6.2
+[pos_niv3_forget_zone]=0.4,5.8,1.7,1.7
+
+[pos_niv4_cm]=4.9,8.2,0.7,0.7
+[pos_niv4_pv]=0.3,8.2,0.75,0.75
+[pos_niv4_title]=1.1,7.9,3.7,0.8
+[pos_niv4_label]=1,7.2,3.9,0.5
+[pos_niv4_icons_x]=5
+[pos_niv4_icons_y]=7.7
+
+[pos_line_sep]=0.2,4.6,5.7,4.6
+
+[middle]="center","center"
+[white]=#FFFFFF
+[black]=#000000
+[bg_color]=#FFFFFF
+[Rouge]="#FF0000"
+[Orange]="#FF8800"
+[Jaune]="#FFFF00"
+[Vert]="#00FF00"
+[Bleu]="#0000FF"
+[Violet]="#8800FF"
+
+[FONT_TITRE]="arial",10, TB, [black]
+[FONT_LABEL]="arial",10,TI, [black]
+[FONT_CM_PV]="arial",8,TB, [black]
+[FONT_ICONS]="arial",7,TB, [black]
+
+IF=[Couleur]="Rouge"
+    RECTANGLE=[all],0,0,5.9,9.2,[Rouge]
+ELSEIF=[Couleur]="Orange"
+    RECTANGLE=[all],0,0,5.9,9.2,[Orange]
+ELSEIF=[Couleur]="Jaune"
+    RECTANGLE=[all],0,0,5.9,9.2,[Jaune]
+ELSEIF=[Couleur]="Vert"
+    RECTANGLE=[all],0,0,5.9,9.2,[Vert]
+ELSEIF=[Couleur]="Bleu"
+    RECTANGLE=[all],0,0,5.9,9.2,[Bleu]
+ELSEIF=[Couleur]="Violet"
+    RECTANGLE=[all],0,0,5.9,9.2,[Violet]
+ENDIF
+RECTANGLE=[all],[pos_rect_color],[white]
+RECTANGLE=[all],[pos_rect_color],[black],EMPTY,0.02
+
+FONT=[FONT_CM_PV]
+IMAGE=[all_recto],".\Icons\confusion.png",[pos_niv1_cm]
+TEXT=[all_recto],[Niv1_CM],[pos_niv1_cm],center,wwcenter
+IMAGE=[all_recto],".\Icons\confusion.png",[pos_niv4_cm],180
+TEXT=[all_recto],[Niv4_CM],[pos_niv4_cm],center,wwcenter,180
+IMAGE=[all_verso],".\Icons\confusion.png",[pos_niv2_cm]
+TEXT=[all_verso],[Niv2_CM],[pos_niv2_cm],center,wwcenter
+IMAGE=[all_verso],".\Icons\confusion.png",[pos_niv3_cm],180
+TEXT=[all_verso],[Niv3_CM],[pos_niv3_cm],center,wwcenter,180
+
+FONT=[FONT_CM_PV]
+VECTOR=[all_recto],".\Icons\laurel.svg",[pos_niv1_pv]
+TEXT=[all_recto],[Niv1_PV],[pos_niv1_pv],center,wwcenter
+VECTOR=[all_recto],".\Icons\laurel.svg",[pos_niv4_pv],180
+TEXT=[all_recto],[Niv4_PV],[pos_niv4_pv],center,wwcenter,180
+VECTOR=[all_verso],".\Icons\laurel.svg",[pos_niv2_pv]
+TEXT=[all_verso],[Niv2_PV],[pos_niv2_pv],center,wwcenter
+VECTOR=[all_verso],".\Icons\laurel.svg",[pos_niv3_pv],180
+TEXT=[all_verso],[Niv3_PV],[pos_niv3_pv],center,wwcenter,180
+
+FONT=[FONT_TITRE]
+TEXT=[all_recto],[Titre],[pos_niv1_title],center,wwcenter
+TEXT=[all_recto],[Titre],[pos_niv4_title],center,wwcenter,180
+TEXT=[all_verso],[Titre],[pos_niv2_title],center,wwcenter
+TEXT=[all_verso],[Titre],[pos_niv3_title],center,wwcenter,180
+
+FONT=[FONT_LABEL]
+TEXT=[all_recto],[Niv1_Label],[pos_niv1_label],center,wwtop
+TEXT=[all_recto],[Niv4_Label],[pos_niv4_label],center,wwtop,180
+TEXT=[all_verso],[Niv2_Label],[pos_niv2_label],center,wwtop
+TEXT=[all_verso],[Niv3_Label],[pos_niv3_label],center,wwtop,180
+
+LINE=[all],[pos_line_sep],[black],0.02,"dsd"
+
+FONT=[FONT_ICONS]
+FOR=A,0,3
+    TEXT=[all_recto],[Icon{A+1}],[pos_niv4_icons_x],[pos_niv4_icons_y]-([icons_height]+0.1)*A,[icons_width],[icons_height],center,wwcenter,180
+NEXT
+FOR=A,0,3
+    TEXT=[all_verso],[Icon{A+1}],[pos_niv2_icons_x],[pos_niv2_icons_y]+([icons_height]+0.1)*A,[icons_width],[icons_height],center,wwcenter
+NEXT
+FOR=A,0,3
+    TEXT=[all_verso],[Icon{A+1}],[pos_niv3_icons_x],[pos_niv3_icons_y]-([icons_height]+0.1)*A,[icons_width],[icons_height],center,wwcenter,180
+NEXT
+
+FONT=[FONT_ICONS]
+FOR=A,0,3
+    IF=[Niv1_ReqLinkType{A+1}]<>""
+        RECTANGLE=[all_recto],[pos_niv1_req_icons_x]+([icons_width]+0.1)*A,[pos_niv1_req_icons_y],[icons_width],[icons_width],[black],EMPTY,0.05
+        TEXT=[all_recto],[Niv1_ReqLinkType{A+1}],[pos_niv1_req_icons_x]+([icons_width]+0.1)*A,[pos_niv1_req_icons_y],[icons_width],[icons_width],center,wwcenter
+    ENDIF
+NEXT
+FOR=A,0,{[Niv2_ReqExpNb]-1}
+    RECTANGLE=[all_verso],[pos_niv2_req_exp_x]+([icons_width]+0.1)*({A#4}),[pos_niv2_req_exp_y]+([icons_width]+0.1)*({A£4}),[icons_width],[icons_width],[black],EMPTY,0.05
+    IMAGE=[all_verso],".\Icons\Basic-Color-Wheel-square.jpg",[pos_niv2_req_exp_x]+([icons_width]+0.1)*({A#4}),[pos_niv2_req_exp_y]+([icons_width]+0.1)*({A£4}),[icons_width],[icons_width]
+NEXT
+FOR=A,0,[Niv3_ReqExpNb]
+    RECTANGLE=[all_verso],[pos_niv3_req_color_x]-([icons_width]+0.3)*({A#5}),[pos_niv3_req_color_y]-([icons_width]+0.3)*({A£5}),[icons_width],[icons_width],[black],EMPTY,0.05
+    IMAGE=[all_verso],".\Icons\Basic-Color-Wheel-square.jpg",[pos_niv3_req_color_x]-([icons_width]+0.3)*({A#5}),[pos_niv3_req_color_y]-([icons_width]+0.3)*({A£5}),[icons_width],[icons_width]
+NEXT
+;RECTANGLE=[all_verso],[pos_niv3_forget_zone],[white],[black],0.05
+;FONT="Arial",10,T,[white]
+;TEXT=[all_verso],"Oubli",[pos_niv3_forget_zone],center,wwcenter,180
+
+DUPLEX=[all_recto],[all_verso]
+PRINT=DUPLEX

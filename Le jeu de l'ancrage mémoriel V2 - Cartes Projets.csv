@@ -1,0 +1,16 @@
+Titre,Couleur,Icon1,Icon2,Icon3,Icon4,Icon5,Texte,CM,PV,Nb
+Projet 1,Rouge,A,B,,,,A + B,3,6,1
+Projet 2,Jaune,B,D,,,,B + D,3,6,1
+Projet 3,Vert,C,A,,,,C + A,3,6,1
+Projet 5,Bleu,A,D,B,,,A + D + B,4,9,1
+Projet 6,Rouge,B,D,C,A,,B + D + C + A,4,12,1
+Projet 7,Vert,C,A,B,D,,C + A + B + D,4,12,1
+Projet 8,Jaune,A,B,C,D,,A + B + C + D,4,12,1
+Projet 9,Vert,B,C,D,,,B + C + D,4,9,1
+Projet 10,Bleu,C,D,,,,C + D,3,6,1
+Projet 11,Vert,D,A,,,,D + A,3,6,1
+Projet 13,Orange,B,A,D,,,B + A + D,4,9,1
+Projet 14,Rouge,C,B,A,,,C + B + A,4,9,1
+Projet 16,Bleu,B,D,C,A,,B + D + C + A,4,12,1
+Projet 17,Jaune,C,A,D,,,C + A + D,4,9,1
+Projet 19,Jaune,D,C,,,,D + C,3,6,1

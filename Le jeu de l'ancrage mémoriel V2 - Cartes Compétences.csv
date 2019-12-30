@@ -1,0 +1,17 @@
+﻿Titre,Couleur,Icon1,Niv1_Label,Niv1_PV,Niv1_CM,Niv1_ReqLinkType1,Niv1_ReqLinkType2,Niv1_ReqLinkType3,Niv1_ReqLinkType4,Niv2_Label,Niv2_PV,Niv2_CM,Niv2_ReqExpNb,Niv3_Label,Niv3_PV,Niv3_CM,Niv3_ReqExpNb,Niv3_ReqExpDiffNb,Niv4_Label,Niv4_PV,Niv4_CM,Nb
+Cat A _ Comp 1,Bleu,A,Connu,0,1,a,b,c,d,Compris,4,4,3,Appliquable,8,3,4,3,Maîtrisé,16,2,3
+Cat A _ Comp 2,Rouge,A,Connu,0,1,a,b,d,,Compris,3,3,2,Appliquable,6,2,3,2,Maîtrisé,9,1,3
+Cat A _ Comp 3,Bleu,A,Connu,0,1,a,d,,,Compris,2,2,2,Appliquable,4,2,3,2,Maîtrisé,4,1,3
+Cat A _ Comp 4,Jaune,A,Connu,0,1,a,c,b,,Compris,3,3,2,Appliquable,6,2,3,2,Maîtrisé,9,1,3
+Cat B _ Comp 1,Vert,B,Connu,0,1,b,c,,,Compris,2,2,2,Appliquable,4,2,3,2,Maîtrisé,4,1,3
+Cat B _ Comp 2,Orange,B,Connu,0,1,b,a,d,,Compris,3,3,2,Appliquable,6,2,3,2,Maîtrisé,9,1,3
+Cat B _ Comp 3,Rouge,B,Connu,0,1,b,d,a,c,Compris,4,4,3,Appliquable,8,3,4,3,Maîtrisé,16,2,3
+Cat B _ Comp 4,Orange,B,Connu,0,1,b,c,a,,Compris,3,3,2,Appliquable,6,2,3,2,Maîtrisé,9,1,3
+Cat C _ Comp 1,Orange,C,Connu,0,1,c,b,d,,Compris,3,3,2,Appliquable,6,2,3,2,Maîtrisé,9,1,3
+Cat C _ Comp 2,Bleu,C,Connu,0,1,c,d,a,b,Compris,4,4,3,Appliquable,8,3,4,3,Maîtrisé,16,2,3
+Cat C _ Comp 3,Rouge,C,Connu,0,1,c,a,,,Compris,2,2,2,Appliquable,4,2,3,2,Maîtrisé,4,1,3
+Cat C _ Comp 4,Orange,C,Connu,0,1,c,a,b,,Compris,3,3,2,Appliquable,6,2,3,2,Maîtrisé,9,1,3
+Cat D _ Comp 1,Jaune,D,Connu,0,1,d,a,c,b,Compris,4,4,3,Appliquable,8,3,4,3,Maîtrisé,16,2,3
+Cat D _ Comp 2,Bleu,D,Connu,0,1,d,a,,,Compris,2,2,2,Appliquable,4,2,3,2,Maîtrisé,4,1,3
+Cat D _ Comp 3,Violet,D,Connu,0,1,d,c,a,,Compris,3,3,2,Appliquable,6,2,3,2,Maîtrisé,9,1,3
+Cat D _ Comp 4,Jaune,D,Connu,0,1,d,b,c,,Compris,3,3,2,Appliquable,6,2,3,2,Maîtrisé,9,1,3

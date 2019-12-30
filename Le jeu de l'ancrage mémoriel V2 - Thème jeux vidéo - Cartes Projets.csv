@@ -1,0 +1,7 @@
+﻿Titre,Couleur,Icon1,Icon2,Icon3,Icon4,Icon5,Texte,CM,PV,Nb
+Jeu Plateforme,Rouge,MP,GP,EN,LD,GD,MP + GP + EN + LD + GD,3,12,1
+FPS,Orange,MP,IA,GP,LD,,MP + IA + GP + LD,2,9,1
+Jeu Stratégie,Jaune,IA,GP,EN,LD,GD,IA + GP + EN + LD + GD,3,12,1
+Jeu Tactique,Vert,IA,GP,LD,GD,,IA + GP + LD + GD,2,9,1
+Puzzle-game,Bleu,MP,GP,EN,LD,,MP + GP + EN + LD,2,9,1
+Party-game,Violet,MP,GP,LD,,,MP + GP + LD,2,6,1

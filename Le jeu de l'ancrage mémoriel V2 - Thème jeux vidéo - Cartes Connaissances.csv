@@ -1,0 +1,8 @@
+﻿Titre,Icon,Niv1_Label,Niv1_PV,Niv1_CM,Niv1_ReqLinkType,Niv2_Label,Niv2_PV,Niv2_CM,Niv2_ReqExpNb,Niv3_Label,Niv3_PV,Niv3_CM,Niv3_ReqExpNb,Niv4_Label,Niv4_PV,Niv4_CM,Nb
+Apprendre (µ),µ,,,,,,,,,Appliquable,0,4,4,Maîtrisé,0,1,4
+Maths (m),m,Connu,1,2,µ,Compris,1,3,1,Appliquable,1,2,3,Maîtrisé,2,1,4
+Physique (p),p,Connu,1,2,µ,Compris,1,3,1,Appliquable,1,2,3,Maîtrisé,2,1,4
+Logique (l),l,Connu,1,2,µ,Compris,1,3,1,Appliquable,1,2,3,Maîtrisé,2,1,4
+Algorithmie (a),a,Connu,1,2,µ,Compris,1,3,1,Appliquable,1,2,3,Maîtrisé,2,1,4
+C++ (c),c,Connu,1,2,µ,Compris,1,3,1,Appliquable,1,2,3,Maîtrisé,2,1,4
+Game Design (g),g,Connu,1,2,µ,Compris,1,3,1,Appliquable,1,2,3,Maîtrisé,2,1,4

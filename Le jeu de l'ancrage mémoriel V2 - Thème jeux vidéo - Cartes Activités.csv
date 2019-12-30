@@ -1,0 +1,7 @@
+﻿Titre,Couleur,Icon1,Icon2,Icon3,Icon4,Icon5,Texte,CM,Nb
+Démo Jeu de Plateforme,Rouge,MP,GP,EN,,,MP / GP / EN,2,2
+Démo FPS,Orange,MP,IA,GP,,,MP / IA / GP,2,2
+Refaire Pac-Man,Jaune,IA,GP,LD,GD,,IA / GP / LD / GD,2,2
+Refaire Tetris,Vert,MP,GP,,,,MP / GP,1,2
+Jeu flash,Bleu,GP,EN,GD,,,GP / EN / GD,2,2
+Boardgame,Violet,LD,GD,,,,LD / GD,1,2
